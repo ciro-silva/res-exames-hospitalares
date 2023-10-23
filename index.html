@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"> 
+
+	<head>
+		<meta charset="UTF-8"/> 
+		<title>Hospital Memorial Arthur Ramos</title> 
+		<link href="css/style.css" rel="stylesheet"/> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/4cb80f45e5.js" crossorigin="anonymous"></script> 
+		<link rel="shortcut icon" href="#"> 
+	</head>
+
+<body>
+
+	<div class="container-geral">
+
+<!--ICONE E LOGO------------------------------------->
+
+		<div class="container-top-banner">
+			<div class="top-banner">
+
+				<div class="top-banner-icon-logo">
+
+					<div class="top-banner-left-icon">
+						<div class="top-banner-icon">
+							<img id="icon-close" src="./assets/icons/icon-close.png" alt="icone fechar">
+						</div><!--top-banner-icon-->
+					</div><!--top-banner-left-icon-->
+
+					<div class="top-banner-right-icon">
+						<div class="top-banner-logo">
+							<img id="logo-hmar" src="./assets/img/hmar-icon-logo.png" alt="Icone logo Hospital Memorial Arthur Ramos">
+						</div><!--top-banner-icon-->
+					</div><!--top-banner-left-icon-->
+
+				</div><!--top-banner-icon-logo-->
+
+				<div class="container-cabecalho-app">
+
+					<div class="cabecalho-items">
+						<div class="titulo">
+							<h1>Resultado<br>de Exames</h1>
+						</div><!--titulo-->
+					</div><!--cabecalho-items-->
+
+				</div><!--container-cabecalho-app-->
+
+				<div class="container-paciente-info">
+					<div class="atend-comp">
+						<h2>Atendimento:</h2>
+						<span id="nr-atend">1236547</span>
+					</div><!--atend-comp-->
+					<p id="nm-paciente">Nome do Paciente</p>
+					<p id="dt-nascimento">15/05/1989</p>
+				</div><!--container-atend-info-->
+
+			</div><!--top-banner-->
+		</div><!--container-top-banner-->
+
+<!--CARDS EXAMES------------------------------------->
+
+		<div class="container-cards-exames">
+			<div class="container-cards-items">
+
+<!--CARDS STATUS EXAME LABORATORIO------------------------------------->
+				<!-- CARD EXAME FINALIZADO ---------------------->
+				<div class="card-laboratorio-finalizado">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/Icon-Lab.png" alt="icone tubo de ensaio">
+						<span class="qtd-exame" id="qtd-exame-lab">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Laboratório</p>
+
+					<div class="progress-bar-exame">
+					</div><!--progress-bar-exame-->
+				</div><!--card-laboratorio-finalizado-->
+
+				<!-- CARD EXAME PRESCRITO ---------------------->
+				<div class="card-laboratorio-prescrito">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/Icon-Lab.png" alt="icone tubo de ensaio">
+						<span class="qtd-exame" id="qtd-exame-lab">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Laboratório</p>
+
+					<div class="progress-bar-exame-prescrito">
+						<div class="bar-prescrito"></div><!--bar-prescrito-->
+					</div><!--progress-bar-exame-->
+				</div><!--card-laboratorio-prescrito-->
+
+				<!-- CARD EXAME INATIVO ---------------------->
+				<div class="card-laboratorio-inativo">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/Icon-Lab-inativo.png" alt="icone tubo de ensaio">
+						<span class="qtd-exame-inativo" id="qtd-exame-lab">--</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame-inativo">Laboratório</p>
+
+					<div class="progress-bar-exame-inativo">
+					</div><!--progress-bar-exame-->
+				</div><!--card-laboratorio-inativo-->
+
+<!--CARDS STATUS EXAME RESSONANCIA------------------------------------->
+				<!-- CARD EXAME FINALIZADO ---------------------->
+				<div class="card-ressonancia-finalizado">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-ressonancia.png" alt="icone ressonancia">
+						<span class="qtd-exame" id="qtd-exame-ressonancia">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Ressonância</p>
+
+					<div class="progress-bar-exame">
+					</div><!--progress-bar-exame-->
+				</div><!--card-ressonancia-finalizado-->
+
+				<!-- CARD EXAME PRESCRITO ---------------------->
+				<div class="card-ressonancia-prescrito">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-ressonancia.png" alt="icone ressonancia">
+						<span class="qtd-exame" id="qtd-exame-ressonancia">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Ressonância</p>
+
+					<div class="progress-bar-exame-prescrito">
+						<div class="bar-prescrito"></div><!--bar-prescrito-->
+					</div><!--progress-bar-exame-prescrito-->
+				</div><!--card-ressonancia-prescrito-->
+
+				<!-- CARD EXAME INATIVO ---------------------->
+				<div class="card-ressonancia-inativo">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-ressonancia-inativo.png" alt="icone ressonancia">
+						<span class="qtd-exame-inativo" id="qtd-exame-ressonancia">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame-inativo">Ressonância</p>
+
+					<div class="progress-bar-exame-inativo">
+					</div><!--progress-bar-exame-->
+				</div><!--card-ressonancia-inativo-->
+
+<!--CARDS STATUS EXAME TOMOGRAFIA------------------------------------->
+				<!-- CARD EXAME FINALIZADO ---------------------->
+				<div class="card-tomografia-finalizado">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-tomografia.png" alt="icone tomografia">
+						<span class="qtd-exame" id="qtd-exame-ressonancia">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Tomografia</p>
+
+					<div class="progress-bar-exame">
+					</div><!--progress-bar-exame-->
+				</div><!--card-tomografia-finalizado-->
+
+				<!-- CARD EXAME PRESCRITO ---------------------->
+				<div class="card-tomografia-prescrito">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-tomografia.png" alt="icone tomografia">
+						<span class="qtd-exame" id="qtd-exame-ressonancia">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Tomografia</p>
+
+					<div class="progress-bar-exame-prescrito">
+						<div class="bar-prescrito"></div><!--bar-prescrito-->
+					</div><!--progress-bar-exame-prescrito-->
+				</div><!--progress-bar-exame-prescrito-->
+
+				<!-- CARD EXAME INATIVO ---------------------->
+				<div class="card-tomografia-inativo">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-tomografia-inativo.png" alt="icone tomografia">
+						<span class="qtd-exame-inativo" id="qtd-exame-ressonancia">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame-inativo">Tomografia</p>
+
+					<div class="progress-bar-exame-inativo">
+					</div><!--progress-bar-exame-->
+				</div><!--card-tomografia-inativo-->
+
+<!--CARDS STATUS EXAME RAIO-X------------------------------------->
+				<!-- CARD EXAME FINALIZADO ---------------------->
+				<div class="card-raiox-finalizado">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-raiox.png" alt="icone raio-x">
+						<span class="qtd-exame" id="qtd-exame-raiox">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Raio X</p>
+
+					<div class="progress-bar-exame">
+					</div><!--progress-bar-exame-->
+				</div><!--card-raiox-finalizado-->
+
+				<!-- CARD EXAME PRESCRITO ---------------------->
+				<div class="card-raiox-prescrito">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/icon-raiox.png" alt="icone raio-x">
+						<span class="qtd-exame" id="qtd-exame-raiox">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame">Raio X</p>
+
+					<div class="progress-bar-exame-prescrito">
+						<div class="bar-prescrito"></div><!--bar-prescrito-->
+					</div><!--progress-bar-exame-prescrito-->
+				</div><!--card-raiox-finalizado-->
+
+				<!-- CARD EXAME INATIVO ---------------------->
+				<div class="card-raiox-prescrito">
+					<div class="icon-and-qtd-exame">
+						<img src="./assets/icons/Icon-raiox-inativo.png" alt="icone raio-x">
+						<span class="qtd-exame-inativo" id="qtd-exame-raiox">04</span>
+					</div><!--icon-and-qtd-exame-->
+					<p id="nm-setor-exame-inativo">Raio X</p>
+
+					<div class="progress-bar-exame-inativo">
+					</div><!--progress-bar-exame-->
+				</div><!--card-raiox-finalizado-->
+
+				</div><!--container-cards-items-->
+		</div><!--container-cards-exames-->
+		
+	</div><!--container-geral-->
+
+</body>
+</html>
+
+
